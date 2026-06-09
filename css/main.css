@@ -10,3 +10,17 @@
     margin: 0 auto;
     max-width: 1200px;
 }
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.bar{
+    width: 20px;
+    height: 2px;
+    background: black;
+    margin: 3px;
+}
