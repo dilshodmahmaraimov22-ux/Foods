@@ -103,6 +103,12 @@
 }
 .reg-container{
     background-color: #F2F4FA;
+    padding: 40px;
+}
+.reg-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .reg-title {
     font-family: Poppins;
@@ -111,5 +117,21 @@
     line-height: 64px;
     letter-spacing: 8%;
     vertical-align: middle;
-
+    margin-bottom: 30px;
+}
+.reg-text{
+    width: 300px;
+}
+.reg-input{
+    width: 280px;
+    height: 55px;
+    padding: 10px;
+    opacity: 0.7;
+}
+.reg-btn{
+    width: 85px;
+    height: 55px;
+    background-color: #FFE145;
+    border: none;
+    border-radius: 10px;
 }
