@@ -173,13 +173,14 @@
 
 .map-img {
     position: relative;
+    width: 1200px;
 }
 
 .map-img2 {
     position: absolute;
-    top: 1810px;
+    top: 1785px;
     left: 50%;
-    transform: translateX(calc(-50% - 30px));
+    transform: translateX(calc(-50% - 55px));
 }
 .section-list{
     margin-bottom: 30px;
@@ -210,4 +211,46 @@
 .section-item2{
     display: flex;
     gap: 20px;
+}
+.footer-container{
+    margin-top: 50px;
+    background-color: #3F4255;
+    height: 350px;
+    padding: 30px;
+}
+.footer-list{
+    display: flex;
+    gap: 120px;
+}
+.footer-title{
+    margin-bottom: 20px;
+    color: white;
+}
+h1{
+    color: white;
+    margin: 10px;
+    width: 150px;
+}
+p{
+    color: white;
+    margin: 10px;
+}
+hr{
+    width: 200px;
+    margin-bottom: 20px;
+}
+.footer-list2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.ilova{
+    color: white;
+}
+.footer-item2{
+    display: flex;
+    gap: 20px;
+}
+.footer-link{
+    color: white;
 }
