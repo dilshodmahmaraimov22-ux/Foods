@@ -10,17 +10,15 @@
     margin: 0 auto;
     max-width: 1200px;
 }
-.header-container{
+.header-list{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-.head{
+.header-item{
     display: flex;
-    justify-content: space-between;
+    gap: 25px;
 }
-.bar{
-    width: 20px;
-    height: 2px;
-    background: black;
-    margin: 3px;
+.header-title{
+    font-size: 27px;
 }
